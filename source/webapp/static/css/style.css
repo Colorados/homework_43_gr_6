@@ -1,0 +1,257 @@
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: rgb(42 96 108);
+	background-image: url(../img/main-pic.png);
+	background-repeat: no-repeat;
+	/*background-position: top center;*/
+	background-position: 50% 0;
+	margin: 0px;
+}
+.container{
+	max-width: 1170px;
+	min-width: 980px;
+	margin: 0 auto;
+}
+.header{
+	height: 70px;
+	background-color: rgb(32 75 82);
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
+}
+.logo h1{
+	font-size: 25px;
+	font-weight: normal;
+	margin: 20px 0;
+}
+.nav{
+	float: right;
+	margin: 25px 0;
+}
+.nav-link{
+	padding: 0 10px;
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+}
+.nav-link:hover{
+	color: #40E0D0;
+}
+.text-center{
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 150px;
+}
+.text-center h2{
+	font-size: 41px;
+	letter-spacing: 5px;
+	color: white;
+	font-weight: bold;
+}
+.text-center p{
+	font-size: 31px;
+	letter-spacing: 5px;
+	color: white;
+	padding: 15px 0;
+	margin-bottom: 10px;
+}
+.more{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: -0.2px;
+	color: white;
+	border: solid 2px white;
+	padding: 10px 35px;
+	box-sizing: border-box;
+}
+.more:hover{
+	border: solid 2px teal;
+	color: teal;
+}
+#blocks{
+	margin-top: 130px;
+}
+#blocks .container{
+	/*background: transparent;*/
+}
+.flex-row{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
+.box{
+	padding: 50px 50px 50px;
+	box-sizing: border-box;
+	width: 50%;
+}
+.box-1{
+	background-color: rgb(232 76 61);
+}
+.box-2{
+	background-color: rgb(253 189 31);
+}
+.box-3{
+	background-color: rgb(27 188 155);
+}
+.box-4{
+	background-color: rgb(155 88 181);
+}
+.ref{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 29px;
+	color: white;
+}
+.paragraph{
+	font-size: 16px;
+	line-height: 25px;
+	/*letter-spacing: 0.1px;*/
+	color: white;
+	padding: 0 40px;
+	margin-top: 20px;
+}
+.icon{
+	display: inline-block;
+	font-size: 0px;
+	color: white;
+	width: 56px;
+	height: 56px;
+	background: no-repeat center white;
+	padding: 23px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+.chat{
+	background-image: url(../img/ic-chat.png);
+}
+.pencil{
+	background-image: url(../img/ic-pencil.png);
+}
+.crown{
+	background-image: url(../img/ic-crown.png);
+}
+.user{
+	background-image: url(../img/ic-user.png);
+}
+.second-text{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin-top: 70px;
+}
+.tempor-interdum{
+	font-size: 29px;
+	margin-bottom: 20px;
+}
+.lined-sides{
+	position: relative;
+	display: inline-block;
+	font-size: 21px;
+}
+.lined-sides::before{
+	position: absolute;
+	border-top: solid 2px teal;
+	right: 98%;
+	top: 49%;
+	width: 120px;
+	content: '';
+}
+.lined-sides::after{
+	position: absolute;
+	border-top: solid 2px teal;
+	left: 98.5%;
+	top: 49%;
+	width: 120px;
+	content: '';
+}
+#users{
+	margin-top: 60px;
+}
+.user-cards{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	text-align: center;
+}
+.card{
+	flex: 370px 0 1;
+	background-color: rgb(32 75 82);
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+.card img{
+	border: none;
+	border-radius: 50%;
+	padding: 40px;
+}
+.card p{
+	font-size: 16px;
+	padding: 0 30px;
+	color: #b0e0e6;
+	margin-bottom: 50px;
+}
+.card-1{
+	border-top: solid 7px rgb(232 76 61);
+}
+.card-2{
+	border-top: solid 7px rgb(253 189 31);
+}
+.card-3{
+	border-top: solid 7px rgb(27 188 155);
+}
+.read-more{
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-stretch: condensed;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	padding: 10px 20px;
+}
+.red{
+	background-color: rgb(232 76 61);
+}
+.yellow{
+	background-color: rgb(253 189 31);
+}
+.cyan{
+	background-color: rgb(27 188 155);
+}
+.footer{
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 70px;
+	padding: 60px 0;
+	background-color: rgb(32 75 82);
+}
+.footer p{
+	display: inline-block;
+}
+.w-c{
+	color: white;
+}
+.y-c{
+	color: rgb(253 189 31);
+}
+.link{
+	text-decoration: none;
+}
+.link:hover{
+	color: #40E0D0;
+}
+.link:focus{
+	color: deepskyblue;
+}
